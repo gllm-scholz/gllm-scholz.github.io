@@ -114,13 +114,62 @@ analytics:
 
 # Site Author
 author:
-  name             : "Guillaume Scholz"
-  location         : "Leipzig, Germany"
+  name             : "Anna Lindeberg"
+  avatar           : "/assets/images/bio-photo.png"
+  bio              : "Mathematician and computer scientist"
+  location         : "Stockholm, Sweden"
+  email            : 
+  links:
+    - label: "anna.lindeberg&lt;at&gt;math.su.se"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:anna.lindeberg@math.su.se"
+    - label: "University homepage"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.su.se/profiles/anli2726-1.513404"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AnnaLindeberg"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-9664-1918"
+
+# Site Footer
+footer:
+  # links:
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     # url:
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     # url:
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     # url:
+  #   - label: "GitLab"
+  #     icon: "fab fa-fw fa-gitlab"
+  #     # url:
+  #   - label: "Bitbucket"
+  #     icon: "fab fa-fw fa-bitbucket"
+  #     # url:
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     # url:
+  since: "2025"
 
 
 # Reading Files
 include:
   - .htaccess
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
