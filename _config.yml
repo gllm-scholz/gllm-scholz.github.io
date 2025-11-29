@@ -6,26 +6,20 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-# remote_theme             : "mmistakes/minimal-mistakes@4.27.2"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                  : "jekyll-theme-dinky"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Anna Lindeberg"
+title                    : "Guillaume Scholz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Anna Lindeberg"
-description              : "Personal website of Anna Lindeberg"
-url                      : "https://annalindeberg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Guillaume Scholz"
+description              : "Personal website of Guillaume Scholz"
+url                      : "https://gllm-scholz.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : "annalindeberg/annalindeberg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "gllm-scholz/gllm-scholz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
@@ -114,62 +108,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Anna Lindeberg"
-  avatar           : "/assets/images/bio-photo.png"
-  bio              : "Mathematician and computer scientist"
-  location         : "Stockholm, Sweden"
-  email            : 
-  links:
-    - label: "anna.lindeberg&lt;at&gt;math.su.se"
-      icon: "fas fa-fw fa-at"
-      url: "mailto:anna.lindeberg@math.su.se"
-    - label: "University homepage"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.su.se/profiles/anli2726-1.513404"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/AnnaLindeberg"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0001-9664-1918"
-
-# Site Footer
-footer:
-  # links:
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     # url:
-  #   - label: "Facebook"
-  #     icon: "fab fa-fw fa-facebook-square"
-  #     # url:
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     # url:
-  #   - label: "GitLab"
-  #     icon: "fab fa-fw fa-gitlab"
-  #     # url:
-  #   - label: "Bitbucket"
-  #     icon: "fab fa-fw fa-bitbucket"
-  #     # url:
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     # url:
-  since: "2025"
+  name             : "Guillaume Scholz"
+  location         : "Leipzig, Germany"
 
 
 # Reading Files
 include:
   - .htaccess
-  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
