@@ -1,0 +1,96 @@
+/* Copyright comment */
+@import "minimal-mistakes/copyright";
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+.bibentry-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bibentry {
+  margin: 0;
+}
+
+.bibentry-right {
+  margin-left: 0.3em;
+  white-space: nowrap;
+}
+
+.pub-section {
+  font-weight: bold;
+  list-style: none;
+  margin-top: 1em;
+  margin-left: -1.5em;
+}
+
+#publications-list .pub-section {
+  font-size: 1.2rem; 
+}
+/* Start a custom counter on the publications container */
+#publications-list {
+  counter-reset: pubnum;
+}
+
+/* Increment and display the counter for each bibliography item */
+#publications-list li:not(.pub-section) {
+  counter-increment: pubnum;
+  list-style: none;
+  position: relative;
+}
+
+#publications-list li:not(.pub-section)::before {
+  content: counter(pubnum) ".";
+  position: absolute;
+  left: -2.5em;
+}
+
+details {
+  border-radius: 4px;
+  padding: 0.5em;
+  margin: -2em 1em 0em 1em;
+}
+
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #004c4c;
+  margin-bottom: 0.5em;
+}
