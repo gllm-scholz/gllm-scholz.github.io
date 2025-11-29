@@ -1,3 +1,10 @@
 title: Guillaume Scholz
 description: Personal webpage.
 theme: jekyll-theme-dinky
+
+# Site Author
+author:
+  name             : "Guillaume Scholz"
+  avatar           : "/assets/images/IMG-20250703-WA0007.png"
+  bio              : "Mathematician"
+  location         : "Leipzig, Germany"
