@@ -2,8 +2,9 @@
 layout: default
 ---
 
+![portrait](/assets/images/Bielefeld.jpg)
+
 Bonjour.
 
-![portrait](/assets/images/Bielefeld.jpg)
 
 #### WIP
